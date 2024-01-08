@@ -14,6 +14,6 @@ async function bootstrap() {
     credentials: true, // Allow sending cookies or other credentials
   }
   );
-  await app.listen(10000);
+  await app.listen(process.env.PORT);
 }
 bootstrap();
