@@ -6,7 +6,7 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  const allowedOrigins = ['http://localhost:3001'];
+  const allowedOrigins = ['http://localhost:3001','https://telebotclient6.onrender.com/'];
   app.enableCors({
     origin:allowedOrigins, // Specify the allowed origin(s)
     methods: 'GET,PUT,POST,DELETE', // Specify which methods are allowed
