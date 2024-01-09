@@ -27,7 +27,7 @@ async function bootstrap() {
   await app.setGlobalPrefix(webhookUrl);
 
   // Start the NestJS application
-  await app.listen(process.env.PORT || 3000);
+  await app.listen(process.env.PORT || 1000);
 }
 
 bootstrap();
