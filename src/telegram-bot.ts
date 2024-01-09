@@ -31,11 +31,7 @@ export class TelegramBotService {
 
   constructor(private readonly adminService: AdminService, private readonly userService: UserService,) {
     
-    this.bot = new TelegramBot(TELEGRAM_BOT_TOKEN, {
-  webHook: {
-    port: process.env.PORT || 3000,  // Use the port your server is running on
-  },
-});
+   this.bot = new TelegramBot('6928437302:AAHlFIYB7NbV3xgSZaDJbvDeIOitSf8tyzQ', { polling: true });
     
 
     this.loadSubscribedUsers();
