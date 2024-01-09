@@ -1,6 +1,6 @@
-/* eslint-disable prettier/prettier */
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+// /* eslint-disable prettier/prettier */
+// import { NestFactory } from '@nestjs/core';
+// import { AppModule } from './app.module';
 
 
 import { NestFactory } from '@nestjs/core';
